@@ -35,6 +35,21 @@ color:navy;
 background-color:#009693;
 }
 
+.pic-container{
+display: flex;
+flex-flow: column-wrap;
+justify-content: space-between;
+
+}
+
+.partner-image {
+  float: center;
+    width:  33%;
+    height: 100px;
+	margin-bottom:5%;
+	padding:5px;
+}
+
 </style>
 </head>
 
@@ -42,7 +57,7 @@ background-color:#009693;
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
-    <div id="home" class="container">
+    <div id="home" class="container-fluid">
       <a class="navbar-brand" href="#">HYPE at Home Program</a>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
@@ -51,7 +66,7 @@ background-color:#009693;
             </a>
           </li>
           <li class="nav-item">
-            <a target="_blank" class="nav-link" href="https://www.gethype.org">About HYPE</a>
+            <a class="nav-link" href="https://www.gethype.org">About HYPE</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#studentprojects">Student Projects</a>
@@ -73,8 +88,10 @@ background-color:#009693;
       <div class="col-lg-7 mb-4">
         <h1 class="font-weight text-center font-teal pt-4">Hope for Youth, Inc</h1>
 		<h2 class="font-weight-light text-center">Educate. Equip. Empower.</h2>
-        <p>HYPE's mission is to prepare girls of color for future careers in the growing technology and innovation fields. </p>
-		<p>Learn more about our partners, instruction, opportunities, & students projects here! </p> 
+        <p>HYPE is on a mission to build a network of underrepresented & marginalized girls that plugs the leaky pipeline that currently exists in the tech industry. <br>
+		We aim to expose students to tech career pathways; provide quality, engaging, & culturally relevant computer science education within safe communities; and 
+		empower scholars to grow in civic-mindedness and global awareness through significant & meaningful leadership opportunites.
+ </p>
        <!-- <a class="btn btn-primary" href="#">Call to Action!</a> -->
       </div>
       <!-- /.col-md-4 -->
@@ -85,13 +102,20 @@ background-color:#009693;
 	<div class="container">
     <div id="primaryheader" class="card bg-secondary mb-4 text-center">
       <div class="card-body">
-        <p class="text-white m-0" style="font-size:20px">About Our Curriculum</p>
+        <p class="text-white m-0" style="font-size:20px">About Our Programs </p>
       </div>
     </div>
 	<div class="row">
 	<div class="col-md-6">
-	<p> The HYPE after-school program is a model of collaboration between HYPE staff, volunteers, teachers, and corporate partners. </br>
-We believe that all of these individuals & teams are necessary for a functioning and <b> equitable </b>  STE(A)M ecosystem!	</p>
+	<p> HYPE offers two programs for schools, non-profit organizations, and individuals:
+<ol>
+<li> <b> The HYPE Project </b> - an extracurricular program facilitated over 9 to 12 weeks to help students explore tech careers, learn fundamental computer science concepts, and create fun & inspiring projects. </li>
+<br><li> <b> HYPE Coding Camps </b> - short-term coding camps offered during the summer or other school breaks. </li> 
+</ol>
+
+HYPE partners with various stakeholders to create meaningful experiences for participants. We believe that a model of collaboration between HYPE staff, tech industry volunteers, schools & school teachers, and corporate partners 
+is necessary for a functioning and <b> equitable </b>  STE(A)M ecosystem!	</p>
+
 <p> Thanks to our team, HYPE students are exposed to: </p>
 <ul>
 <li> Intro to Programming using Scratch </li>
@@ -104,60 +128,43 @@ We believe that all of these individuals & teams are necessary for a functioning
 <li> Leadership Development </li>
 <li> Networking and more! </li>
 </ul>
-<p> Thank you to all of the partners and volunteers who help us bring tech exposure to HYPE scholars! We can not do this without you!</p>
 
 </div>
-	<div class="col-md-6">
+	<div style="margin-top: 60px" class="container col-md-6">
 	<center>
-<table>
-<tr>
-<td>
-<img class="img-fluid" src="images/UPDATED-HYPE_full_logo.png">
-</td>
-<td>
-<img class="img-fluid ml-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/GWC_logo_2016_.png/1200px-GWC_logo_2016_.png">
-</td>
-</tr>
-</table>
+	<div class="pic-container">
+<img class="partner-image" src="https://fiber.google.com/img/fiber.svg">
+<img class="partner-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/General_Electric_logo.svg/768px-General_Electric_logo.svg.png">
+<img class="partner-image" src="https://risk.lexisnexis.com/-/media/images/lnrs/logos/logo_lexis.png">
+</div>
 </center>
-	<table>
-
-<tr>
-<td>
-<img style="height:40%" src="https://assets.agencyspotter.com/uploads/agency_image/image/7553/resized_fletch.png">
-</td>
-<td>
-<img class="img-fluid"src="https://www.tagedonline.org/wp-content/uploads/2017/04/steamsport-logo.png">
-</td>
-<td>
-<img style="width:100%" src="https://www.atlantapublicschools.us/site/handlers/filedownload.ashx?moduleinstanceid=58860&dataid=54287&FileName=APS_CMYK_horizontal.png">
-</td>
-</tr>
-</table>
+<div class="pic-container">
+<img class="partner-image" src="https://assets.agencyspotter.com/uploads/agency_image/image/7553/resized_fletch.png">
+<img class="partner-image" src="https://www.tagedonline.org/wp-content/uploads/2017/04/steamsport-logo.png">
+<img class="partner-image" src="https://www.atlantapublicschools.us/site/handlers/filedownload.ashx?moduleinstanceid=58860&dataid=54287&FileName=APS_CMYK_horizontal.png">
+</div>
 <center>
-<table>
-<tr>
-<td>
-<img style="width:250px;height:125px" src="https://www.digitalcrafts.com/img/digitalcrafts-logo-blue-p.png">
-</td>
-<td>
-<img class="img-fluid mt-3"  src="https://blog.capterra.com/wp-content/uploads/2019/07/Mailchimp_Logo-Vertical_Black.png">
-</td>
-<td>
-<img class="img-fluid"src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg">
-</td>
-</tr>
-</table>
+<div class="pic-container">
+<img style="height:80px" class="partner-image" src="https://files.sitebuilder.name.tools/07/41/07416cd8-4260-47b6-b589-bcf8be352b28.png">
+<img class="partner-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwu5k64M-Y0ZBYRgXPAXSGERT55ozizkX8jw&usqp=CAU">
+<img  class="partner-image" src="https://techbridge.org/wp-content/uploads/2018/12/techbridge-logo-color-01.png">
+</div>
+<div class="pic-container">
+<img class="partner-image" src="https://www.digitalcrafts.com/img/digitalcrafts-logo-blue-p.png">
+<img  class="partner-image" src="https://blog.capterra.com/wp-content/uploads/2019/07/Mailchimp_Logo-Vertical_Black.png">
+<img class="partner-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/GWC_logo_2016_.png/1200px-GWC_logo_2016_.png">
 </center>
 </div>
 </div>
 </div>
+
     <!-- Call to Action Well -->
       <div class="card text-white bg-secondary mb-4 text-center">
 	  <div class="card-body m-0">
         <p id="studentprojects" class="text-white m-0" style="font-size:20px">Student Projects!!</p>
     </div>
 	</div>
+	<p> <b> <center> Check out our student portfolio and passion project websites created by program participants! </center> </b> </p> 
 
     <!-- Content Row -->
     <div class="row">
@@ -171,7 +178,7 @@ We believe that all of these individuals & teams are necessary for a functioning
           </div>
         </div>
       </div>
-      <!-- /.col-md-4 -->
+      <!-- /.col-md-3 -->
       <div class="col-md-3 mb-5">
         <div class="card h-100">
           <div class="card-body">
@@ -182,7 +189,7 @@ We believe that all of these individuals & teams are necessary for a functioning
           </div>
         </div>
       </div>
-      <!-- /.col-md-4 -->
+      <!-- /.col-md-3 -->
       <div class="col-md-3 mb-5">
         <div class="card h-100">
           <div class="card-body">
@@ -204,40 +211,139 @@ We believe that all of these individuals & teams are necessary for a functioning
         </div>
       </div>
     </div>
-	    <div class="row">
-      <div class="col-md-4 mb-5">
+	<div class="row">
+      <div class="col-md-3 mb-5">
         <div class="card h-100">
           <div class="card-body">
             <img class="img-fluid" src="images/Shayla2.jpg" alt="Shayla Student Picture">
             </div>
           <div class="card-footer text-center">
-            <a  target="_blank" href="https://grape-butternut-flamingo.glitch.me/  " class="btn btn-primary btn-sm">Shayla</a>
+            <a  target="_blank" href="https://grape-butternut-flamingo.glitch.me/  " class="btn btn-secondary btn-sm">Shayla</a>
           </div>
         </div>
       </div>
-      <!-- /.col-md-4 -->
-      <div class="col-md-4 mb-5">
+      <!-- /.col-md-3 -->
+      <div class="col-md-3 mb-5">
         <div class="card h-100">
           <div class="card-body">
             <img class="img-fluid" src="images/TiaWilliamsHYPEProgram.jpg" alt="Tia Student Picture"> 
           </div>
           <div class="card-footer text-center">
-            <a  target="_blank" href="https://myportfolioproject-tia.glitch.me/#" class="btn btn-secondary btn-sm">Tia</a>
+            <a  target="_blank" href="https://myportfolioproject-tia.glitch.me/#" class="btn btn-info btn-sm">Tia</a>
           </div>
         </div>
       </div>
-      <!-- /.col-md-4 -->
-      <div class="col-md-4 mb-5">
+      <!-- /.col-md-3 -->
+      <div class="col-md-3 mb-5">
         <div class="card h-100">
           <div class="card-body">
-            <img class="img-fluid mt-5" src="images/HYPEGirlsCode.jpg" alt="HYPE Picture">
+		  <h3> <center> Coding is the New Shopping </center> </h3>
+            <img class="img-fluid" src="https://image.freepik.com/free-photo/beautiful-black-girl-with-shopping-bags-city_1157-24576.jpg" alt="Shopping Photo">
             </div>
           <div class="card-footer text-center">
-            <a  target="_blank" href="https://kristinasmith.glitch.me" class="btn btn-warning btn-sm">HYPE Sample</a>
+            <a  target="_blank" href="https://wary-pool-scooter.glitch.me/" class="btn btn-primary btn-sm">Faith, Jiya, & Khloe</a>
+          </div>
+        </div>
+      </div>
+	  <div class="col-md-3 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+		  <h3> <center> Hooked on Coding </center> </h3>
+            <img class="img-fluid" src="https://code.org/images/fit-450/marketing/excel-charter-schoolhoc-2015-stills-14.jpg" alt="Girls Coding Photo">
+            </div>
+          <div class="card-footer text-center">
+            <a  target="_blank" href="https://blackgirlscode.glitch.me/" class="btn btn-warning btn-sm">Abygale, Amy, & Deanna</a>
           </div>
         </div>
       </div>
     </div>
+	 <div class="row">
+      <div class="col-md-3 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+		   <h3> <center> Coding Community </center> </h3>
+            <img class="img-fluid" src="https://www.bold.com/wp-content/uploads/2017/05/itK1_0002_DSC_8053_ViSmi-1024x683.jpg" alt="Group Project Picture">
+            </div>
+          <div class="card-footer text-center">
+            <a  target="_blank" href="https://group-project1.glitch.me" class="btn btn-warning btn-sm">Chloe, Kayla, Natalia</a>
+          </div>
+        </div>
+      </div>
+      <!-- /.col-md-3 -->
+      <div class="col-md-3 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+		  <h3> <center> The Creative Coding Project </center> </h3>
+            <img class="img-fluid" src="images/CongratsGraduateDiana.png" alt="Diana Student Picture"> 
+          </div>
+          <div class="card-footer text-center">
+            <a  target="_blank" href="https://home-page-code.glitch.me" class="btn btn-primary btn-sm">Diana, Hallie, Kaitlyn, & Kimela</a>
+          </div>
+        </div>
+      </div>
+      <!-- /.col-md-3 -->
+      <div class="col-md-3 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+		  <h3> <center> Powerpuff Passion Project</center> </h3>
+            <img class="img-fluid" src="https://vignette.wikia.nocookie.net/powerpuff/images/8/8b/Bubbles_15.png/revision/latest?cb=20160523095343" alt="PowerPuff Girl">
+            </div>
+          <div class="card-footer text-center">
+            <a  target="_blank" href="https://power-passion-project.glitch.me/" class="btn btn-secondary btn-sm">Aiyanna, Heidi, & Melody</a>
+          </div>
+        </div>
+      </div>
+	  <div class="col-md-3 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+		  <h3> <center> Equality for the Oppressed </center> </h3>
+            <img class="img-fluid" src="https://media.newyorker.com/photos/5cfa7f2177d3442cda945f08/master/w_1600%2Cc_limit/TNY_stonewall_final.jpg" alt="Equal Rights Compilation">
+            </div>
+          <div class="card-footer text-center">
+            <a  target="_blank" href="https://kaeslyn-jaeda-project-.glitch.me" class="btn btn-info btn-sm">Jaeda & Kaeslyn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+	<div class="row">
+      <!-- /.col-md-3 -->
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <img class="img-fluid" src="images/ShekinahGradPic.jpg" alt="Shekinah Student Picture"> 
+          </div>
+          <div class="card-footer text-center">
+            <a  target="_blank" href="https://passionproject3.glitch.me/" class="btn btn-primary btn-sm">Emily, Karma, Shekinah</a>
+          </div>
+        </div>
+      </div>
+      <!-- /.col-md-3 -->
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <img class="img-fluid" src="images/KamylleGrad.jpg" alt="Kamylle Graduation Picture">
+            </div>
+          <div class="card-footer text-center">
+            <a  target="_blank" href="https://blm-project-.glitch.me/" class="btn btn-warning btn-sm">Caelin, Jewel, & Kamylle</a>
+          </div>
+        </div>
+      </div>
+	  <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+		  <h3> <center> Good Neighbor </center> </h3>
+            <img class="img-fluid" src="https://cdn.glitch.com/a1a8e47f-9626-4c45-9edd-ea7f6b586918%2Flittering_1.png?v=1595346598470" alt="Trash by the Sea">
+            </div>
+          <div class="card-footer text-center">
+            <a  target="_blank" href="https://good-abaft-neighborhood.glitch.me/" class="btn btn-info btn-sm">Annette, Mikayla, Sabille</a>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	
+	
+	
   </div>
   <!-- /.container -->
 
@@ -256,5 +362,3 @@ We believe that all of these individuals & teams are necessary for a functioning
 </body>
 
 </html>
-
-
